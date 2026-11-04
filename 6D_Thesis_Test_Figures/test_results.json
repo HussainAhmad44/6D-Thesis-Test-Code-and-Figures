@@ -1,0 +1,44 @@
+{
+  "model": "cyclic fractional 6D map with a=b=c=d=e=0.08",
+  "initial_state": [
+    0.11,
+    0.23,
+    0.37,
+    0.41,
+    0.59,
+    0.73
+  ],
+  "bifurcation": {
+    "parameter": "a",
+    "variable": "X",
+    "min": 0.0,
+    "max": 0.3,
+    "samples": 250,
+    "transient": 500,
+    "keep": 70
+  },
+  "trajectory": {
+    "X_mean": 0.49756251951548336,
+    "X_std": 0.2909607896322302,
+    "X_lag1_corr": 0.3132811326915035,
+    "X_lag5_corr": 0.019482085155299263
+  },
+  "lyapunov_indicator": {
+    "parameter": "a",
+    "at_default": 0.753305416574024,
+    "scan_min": 0.7512834397625017,
+    "scan_max": 0.7540684840545407
+  },
+  "sbox": {
+    "bijective": true,
+    "nonlinearity_min": 98,
+    "nonlinearity_mean": 103.88235294117646,
+    "differential_uniformity": 10,
+    "max_differential_probability": 0.0390625,
+    "SAC_mean": 0.5009765625,
+    "SAC_min": 0.40625,
+    "SAC_max": 0.59375,
+    "BIC_SAC_mean_independence_error": 0.017197745186941966,
+    "BIC_note": "This is a pairwise SAC-independence diagnostic, NOT BIC-NL."
+  }
+}
