@@ -7,7 +7,7 @@ Place 6D_Thesis_Test_Suite.py and 6d_xor_annealed_sbox.csv in the same folder.
 Run default:
   python 6D_Thesis_Test_Suite.py --out thesis_test_figures
 
-Select parameter and state:
+Selectparameter and state:
   python 6D_Thesis_Test_Suite.py --parameter c --variable Z --min 0 --max 0.3 --samples 600 --transient 1000 --keep 150 --out figures_cZ
 
 Outputs: nine numbered PNGs, sbox_SAC_matrix.csv, sbox_DDT_matrix.csv, test_results.json.
