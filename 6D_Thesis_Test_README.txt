@@ -1,4 +1,4 @@
-6D CHAOTIC S-BOX THESIS TEST SUITE
+6D CHAOTIC S-BOX THESIS TEST SUITe
 ================================
 Requires Python 3.10+, numpy, matplotlib.
 Install: pip install numpy matplotlib
